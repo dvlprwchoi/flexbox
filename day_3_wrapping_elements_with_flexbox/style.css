@@ -202,4 +202,14 @@ input::-moz-focus-inner {
   display: flex;
   border: 10px solid goldenrod;
   height: 100vh;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* flex-direction: column; */
+}
+
+.box {
+  width: 33.333333333%;
+  /* width: 33.3333% -20px; */
+  /* width: 300px; */
+  /* margin: 10px; */
 }
