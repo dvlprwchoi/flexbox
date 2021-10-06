@@ -202,4 +202,17 @@ input::-moz-focus-inner {
   display: flex;
   border: 10px solid mistyrose;
   height: 100vh;
+  flex-wrap: wrap;
+  /* cross axis or vertical */
+  /* align-content: flex-start; */
+  /* align-items: stretch; */
+  /* align-items: flex-end; */
+  align-items: center;
+
+  /* horizontal */
+  justify-content: center;
+}
+
+.box {
+  width: 33.3333%;
 }
