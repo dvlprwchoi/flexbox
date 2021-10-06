@@ -201,3 +201,20 @@ input::-moz-focus-inner {
 .container {
   display: flex;
 }
+
+.box {
+  flex: 1;
+}
+
+.box2 {
+  /* when you have an extra space, it gives twice as much */
+  flex: 2;
+}
+
+.box3 {
+  flex: 3;
+}
+
+.box5 {
+  flex: 6;
+}
