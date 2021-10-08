@@ -201,3 +201,19 @@ input::-moz-focus-inner {
 .container {
   display: flex;
 }
+
+.box1 {
+  flex-basis: 400px;
+  flex-grow: 40;
+  flex-shrink: 1;
+}
+/* 
+.box2 {
+  flex-basis: 400px;
+  flex-grow: 1;
+  flex-shrink: 10;
+} */
+
+.box2 {
+  flex: 1 10 400px;
+}
